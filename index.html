@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <title>JLeiite - Entregas</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <img src="./img/JL-logo-crop.png" href="https://github.com/JLeiite">
+            <div class="topnav" id="myTopnav">
+                <nav>
+                   <a href="#pi">Programação Imperativa</a>
+                   <a href="#bd">Banco de Dados</a>
+                   <a href="#sobre">Contato</a>
+                </nav>
+                <a class="icon" href="javascript:void(0);" onclick="myFunction()"><i class="material-icons">dehaze</i></a>
+            </div>
+        </div>
+    </header>
+    <main>
+<!--         <div class="banner">
+            <div class="texto-banner">
+                <h1>DH Flix</h1>
+                <h4>Confira a maior coletânea de filmes que a Digital House tem a te oferecer.</h4>
+                <a href="./login.html">
+                    <button>Explorar</button>
+                </a>
+            </div>
+        </div> -->
+        <section id="pi">
+            <h2>Checkpoints</h2>
+            <div class="card-conteiner">
+                <div class="card" id="pi">
+                    <card class="list-card">
+                        <h5>Programação Imperativa</h5>
+                        <p>
+                            Checkpoint I - 22/08/2022<br>
+                            Desenvolvimento de um menu para um microondas com 5 opções de comida e seus respectivos
+                            tempos pré-definidos. 
+                        </p>
+                        <a href="docs/Checkpoint1-PI.zip" target="_blank" download="Checkpoint1">Download</a>
+                    </card>
+                </div>
+                <div class="card" id="bd">
+                    <card class="list-card">
+                        <h5>Banco de Dados</h5>
+                        <p>
+                            Checkpoint I - 26/08/2022<br>
+                            Desenvolvimento de uma estrutura de banco de dados para um projeto.
+                        </p>
+                        <button type="button" disabled><a href="docs/Checkpoint1-PI.js"></a>Download</button>
+                    </card>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="sobre">
+        <div class="autores">
+            <div class="aluno">
+                <h4>Juliana Leite</h4>
+                <h6>Publicitária e designer web</h6>
+                <div class="aluno-link">
+                    <a href="https://linkedin.com/" target="_blank"><img src="img/LogoIN.png" alt="Linkedin"></a>
+                    <a href="https://github.com/JLeiite" target="_blank"><img src="img/LogoGIT.png" alt="GitHub"></a>
+                </div>
+            </div>
+            <div class="aluno2">
+                <img src="img/JL-logo-crop.png" alt="JLeite">
+            </div>
+        </div>
+        <span>Copyright - 2022</span>
+    </footer>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+
+</body>
