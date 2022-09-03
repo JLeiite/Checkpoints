@@ -19,6 +19,10 @@ a{
     text-decoration: none;
 }
 
+hr{
+    padding: 1em;
+}
+
 /* NAVBAR */
 .navbar {
     overflow: hidden;
